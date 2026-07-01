@@ -12,18 +12,20 @@ If you are tired of AI "slop" suggestions, sign-in prompts, and chat panels, thi
 * Uses the official VS Code CLI to permanently disable built-in AI extensions.
 * Physically deletes or disables `github.copilot`, `copilot-chat`, and `ms-vscode.chat` extension folders from your hard drive.
 * Disables inline AI chat (Ctrl+I), AI "ghost text" suggestions, and the AI Chat command center.
+* Removes AI-related context menu items (like "Copilot Sign In" and "Open in Agents Window").
 
 ### 2. Forces a 1-to-1 ISE Layout
 Makes VS Code look and feel exactly like the legacy PowerShell ISE:
 * Moves the integrated console to the bottom (Script top, Console bottom).
+* Disables modern terminal tabs, restoring the classic, single-dropdown console view.
 * Applies the classic "PowerShell ISE" color theme.
-* Restores the native Windows title bar and standard File/Edit/View menu bar.
+* Restores the native Windows title bar and standard File/Edit/View menu bar, **while preserving the Run/Play script button**.
 * Enables aggressive, local-only IntelliSense (the suggestion dropdown automatically appears as you type, anywhere).
 
 ### 3. Deeply Declutters the UI
 Removes all the modern "IDE" distractions to keep you focused on the code:
 * Hides the Activity Bar (far left icons), Status Bar (bottom bar), and Command Center (top search bar).
-* Removes the code minimap, breadcrumbs, and editor action buttons (the `...` in the top right).
+* Removes the code minimap, breadcrumbs, and Window Layout Controls.
 * Strips editor clutter like code folding arrows, glyph margins, indent guides, and sticky scroll.
 
 ### 4. Enforces "Offline Mode"
