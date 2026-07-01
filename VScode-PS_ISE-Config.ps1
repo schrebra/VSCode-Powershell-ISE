@@ -1,4 +1,4 @@
-# Nuke-VSCodeAI-Final.ps1
+
 # Restores menu bar, fixes the broken file search, and permanently kills Copilot.
 
 # 1. Self-Elevate to Administrator
